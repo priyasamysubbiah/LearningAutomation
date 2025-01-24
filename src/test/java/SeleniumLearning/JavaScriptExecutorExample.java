@@ -55,7 +55,7 @@ public class JavaScriptExecutorExample {
 
         //showAlert
         js.executeScript("alert('You are in alert')");
-
+        driver.switchTo().alert().accept();
 
         //refresh
         js.executeScript("history.go(0)");

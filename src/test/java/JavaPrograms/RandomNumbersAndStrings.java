@@ -22,7 +22,7 @@ public class RandomNumbersAndStrings {
 
     @Test
     void apachePOI(){
-        int numeric = Integer.parseInt(RandomStringUtils.randomNumeric(4));
+        int numeric = Integer.valueOf(RandomStringUtils.randomNumeric(4));
         System.out.println(numeric);
 
         System.out.println(RandomUtils.nextInt());

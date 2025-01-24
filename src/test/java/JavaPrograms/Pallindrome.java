@@ -9,6 +9,7 @@ public class Pallindrome {
     }
 
     static boolean isPallindrome(String value){
+        value.toLowerCase();
         if(value==null){
             return false;
         }

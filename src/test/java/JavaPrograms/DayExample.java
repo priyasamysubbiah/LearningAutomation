@@ -10,7 +10,7 @@ public class DayExample {
             output[i] = input[i].substring(0,3);
         }
         for (String x:output) {
-            System.out.print(x+" ");
+            System.out.print(x+", ");
         }
 
     }

@@ -27,8 +27,6 @@ public class CheckTwoArraysAreEqual {
                }
            }
        }
-       else
-           flag=false;
        if (flag)
            System.out.println("Equal");
        else

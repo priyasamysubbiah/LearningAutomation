@@ -16,7 +16,8 @@ public class ReverseWordsInString {
             for (int i = 0; i<value.length(); i++){
                 reverseWord=value.charAt(i)+reverseWord;
             }
-            reverseString = reverseString + reverseWord + " ";
+            //reverseString = reverseString + reverseWord + " ";
+            reverseString = reverseWord+ " " + reverseString;
         }
         System.out.println(reverseString);
     }

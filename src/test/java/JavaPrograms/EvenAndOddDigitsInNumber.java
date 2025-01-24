@@ -3,7 +3,7 @@ package JavaPrograms;
 import org.testng.annotations.Test;
 
 public class EvenAndOddDigitsInNumber {
-  int num = 123456;
+  int num = 12345677;
 
   @Test
   void logic1(){
